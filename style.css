@@ -232,6 +232,27 @@ button {
     font-size: 25px;
 }
 
+.box-5 {
+    position: relative;
+    text-align: center;
+    color: var(--navbar-footer-ect);
+    margin: 20px;
+}
+
+.videoportræt {
+    width: 300px;
+    opacity: 0.5;
+    background-color: var(--border);
+}
+
+.videoportræt-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
 /*CV side telefon*/
 /*Om mig*/
 .ommig {
@@ -450,25 +471,22 @@ button {
 
     .rumrejsen {
         width: 500px;
-        opacity: 0.5;
-        background-color: var(--border);
     }
 
     .ddd1 {
         width: 500px;
-        opacity: 0.5;
-        background-color: var(--border);
     }
 
     .ddd2 {
         width: 500px;
-        opacity: 0.5;
     }
 
     .bagrettet {
         width: 500px;
-        opacity: 0,5;
+    }
 
+    .videoportræt {
+        width: 500px;
     }
 
     /*footer pc*/
