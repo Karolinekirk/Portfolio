@@ -1,0 +1,113 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500&display=swap');
+
+:root {
+    --backgroundcolor: #f4f3ee;
+    --dropdown-button: #bcb8b1;
+    --navbar-footer-ect: #463f3a;
+    --submenus: #e0afa0;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--backgroundcolor);
+}
+
+/*Dropdown menu telefon*/
+
+header {
+    padding: 20px;
+    background: var(--navbar-footer-ect);
+    text-align: right;
+    max-height: 35px;
+}
+
+header .logo {
+    display: none;
+}
+
+.dropbtn {
+    background-color:var(--navbar-footer-ect);
+    border: none;
+}
+  
+.dropdown {
+    position: relative;  
+}
+  
+.dropdown-content {
+    display: none;
+    margin-top: 18px;
+    background-color: var(--submenus);
+    text-align: center;
+    font-size: 18px;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+/*navbar til pc*/
+.desktop-menu {
+    display: none;
+}
+
+/*Ændring til desktop format*/
+@media screen and (min-width: 1024px) {
+    /*dropdown menu gjort usynlig*/
+    .dropdown {
+        display: none;}
+
+    .desktop-menu {
+        display: block;
+    }
+
+    .desktop-menu ul {
+        display: flex;
+       justify-content: center;
+    }
+
+    .desktop-menu li {
+        padding: 5px;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 20px;
+        margin-top: 0px;
+        font-size: 15px;
+        list-style-type: none;
+        background-color: var(--dropdown-button);  
+        outline: var(--submenus);
+        outline-style: solid;
+        outline-width: 3px;
+    }
+
+    .desktop-menu li .forside {
+        background-color: var(--submenus); 
+    }
+
+    .desktop-menu a {
+        text-decoration: none;
+        color: var(--buttons);
+        font-family: 'Montserrat', sans-serif;
+    }
+
+    header {
+        max-height: 50px;
+    }
+    header .logo {
+        display: block;
+        max-width: 60px;
+        position: absolute;
+        left: 20px;
+        top: 7px;
+    }
+}
