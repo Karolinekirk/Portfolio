@@ -4,7 +4,7 @@
 :root {
     --backgroundcolor: #f4f3ee;
     --dropdown-button: #bcb8b1;
-    --boreder: #8a817c;
+    --border: #8a817c;
     --navbar-footer-ect: #463f3a;
     --submenus: #e0afa0;
 }
@@ -131,7 +131,7 @@ button {
     background-color: var(--backgroundcolor);
 }
 
-/*SKole projekt side*/
+/*Skole projekt side*/
 
 /*Title*/
 
@@ -143,6 +143,92 @@ button {
 
 .title h1 {
     color: var(--navbar-footer-ect);
+    font-size: 25px;
+}
+
+/*oversigt galleri telefon*/
+
+.box-1 {
+    position: relative;
+    text-align: center;
+    color: var(--navbar-footer-ect);
+    margin: 20px;
+}
+
+.rumrejsen {
+    width: 300px;
+    opacity: 0.5;
+    background-color: var(--border);
+}
+
+.rumrejsen-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+}
+
+.box-2 {
+    position: relative;
+    text-align: center;
+    color: var(--navbar-footer-ect);
+    margin: 20px;
+}
+
+.ddd1 {
+    width: 300px;
+    opacity: 0.5;
+    background-color: var(--border);
+}
+
+.ddd1-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.box-3 {
+    position: relative;
+    text-align: center;
+    color: var(--navbar-footer-ect);
+    margin: 20px;
+}
+
+.ddd2 {
+    width: 300px;
+    opacity: 0.5;
+    background-color: var(--border);
+}
+
+.ddd2-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+}
+
+.box-4 {
+    position: relative;
+    text-align: center;
+    color: var(--navbar-footer-ect);
+    margin: 20px;
+}
+
+.bagrettet {
+    width: 300px;
+    opacity: 0.5;
+    background-color: var(--border);
+}
+
+.bagrettet-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 25px;
 }
 
