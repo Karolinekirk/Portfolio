@@ -60,6 +60,8 @@ header .logo {
     display: none;
 }
 
+/*Forside*/
+
 /*Profilbillede og text telefon*/
 .profil-box {
     flex-direction: column;
@@ -127,6 +129,21 @@ header .logo {
 button {
     border: none;
     background-color: var(--backgroundcolor);
+}
+
+/*SKole projekt side*/
+
+/*Title*/
+
+.title {
+    background: var(--submenus);
+    text-align: center;
+    padding: 1px;
+}
+
+.title h1 {
+    color: var(--navbar-footer-ect);
+    font-size: 25px;
 }
 
 /*footer telefon*/
