@@ -432,4 +432,33 @@ button {
         margin: 25px;
     }
 
+    /*oversigt galleri pc*/
+    .oversigt {
+        flex-direction: column;
+    } 
+
+    .rumrejsen {
+        width: 500px;
+        opacity: 0.5;
+        background-color: var(--border);
+    }
+
+    .ddd1 {
+        width: 500px;
+        opacity: 0.5;
+        background-color: var(--border);
+    }
+
+
+    .ddd2 {
+        width: 500px;
+        opacity: 0.5;
+    }
+
+    .bagrettet {
+        width: 500px;
+        opacity: 0,5;
+
+    }
+
 }
