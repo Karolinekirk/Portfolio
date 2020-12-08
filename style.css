@@ -232,6 +232,42 @@ button {
     font-size: 25px;
 }
 
+/*CV side telefon*/
+/*Om mig*/
+.ommig {
+    border: 5px solid var(--dropdown-button);
+    margin: 20px;
+    text-align: center;
+}
+
+.profil {
+    background-color: var(--submenus);
+}
+
+.kontakt {
+    background-color: var(--submenus);
+}
+
+.hobbyer {
+    background-color: var(--submenus);
+}
+
+/*Arbejdserfaring*/
+.erfaring {
+    border: 5px solid var(--dropdown-button);
+    margin: 20px;
+    text-align: center;
+}
+
+.uddannelse {
+    background-color: var(--submenus);
+}
+
+.arbejdserfaring {
+    background-color: var(--submenus);
+}
+
+
 /*footer telefon*/
 .footer-container {
     background-color: var(--navbar-footer-ect);
@@ -268,10 +304,6 @@ button {
 .copyright {
     display: none;
 }
-
-
-
-
 
 /*Ændring til desktop format*/
 @media screen and (min-width: 1024px) {
@@ -404,6 +436,41 @@ button {
         background-color: var(--backgroundcolor);
     }
 
+    /*CV side pc*/
+    .cv {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /*oversigt galleri pc*/
+    .oversigt {
+        flex-direction: column;
+    } 
+
+    .rumrejsen {
+        width: 500px;
+        opacity: 0.5;
+        background-color: var(--border);
+    }
+
+    .ddd1 {
+        width: 500px;
+        opacity: 0.5;
+        background-color: var(--border);
+    }
+
+    .ddd2 {
+        width: 500px;
+        opacity: 0.5;
+    }
+
+    .bagrettet {
+        width: 500px;
+        opacity: 0,5;
+
+    }
+
     /*footer pc*/
     .footer-container {
         justify-content: space-between;
@@ -430,35 +497,6 @@ button {
     .copyright {
         display: block;
         margin: 25px;
-    }
-
-    /*oversigt galleri pc*/
-    .oversigt {
-        flex-direction: column;
-    } 
-
-    .rumrejsen {
-        width: 500px;
-        opacity: 0.5;
-        background-color: var(--border);
-    }
-
-    .ddd1 {
-        width: 500px;
-        opacity: 0.5;
-        background-color: var(--border);
-    }
-
-
-    .ddd2 {
-        width: 500px;
-        opacity: 0.5;
-    }
-
-    .bagrettet {
-        width: 500px;
-        opacity: 0,5;
-
     }
 
 }
