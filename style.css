@@ -4,6 +4,7 @@
 :root {
     --backgroundcolor: #f4f3ee;
     --dropdown-button: #bcb8b1;
+    --boreder: #8a817c;
     --navbar-footer-ect: #463f3a;
     --submenus: #e0afa0;
 }
@@ -50,8 +51,6 @@ header .logo {
     display: block;
 }
   
-
-  
 .dropdown:hover .dropdown-content {
     display: block;
 }
@@ -60,6 +59,116 @@ header .logo {
 .desktop-menu {
     display: none;
 }
+
+/*Profilbillede og text*/
+.profil-box {
+    flex-direction: column;
+    padding: 10px;
+}
+
+.profilbillede{
+    width: 95%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.profilbillede-text {
+    color: black;
+    text-align: center;
+    
+}
+
+/* flexbox*/
+
+.flexbox {
+    flex-direction: column;
+    
+}
+
+.flexbox-1 {
+    margin-top: 80px;
+}
+
+.flexbox-2 {
+    margin-top: 80px;
+}
+
+.flexbox-3 {
+    margin-top: 80px;
+}
+
+.flexbox-4 {
+    margin-top: 80px;
+}
+
+.flexbox h3 {
+    text-align: center;
+}
+
+.projektlogo-1 {
+    width: 350px;
+    margin: 10px;
+}
+
+.projektlogo-2 {
+    width: 350px;
+    margin: 10px;
+}
+
+.projektlogo-3 {
+    width: 350px;
+    margin: 10px;
+}
+
+.projektlogo-4 {
+    width: 350px;
+    margin: 10px;
+}
+
+button {
+    border: none;
+    background-color: var(--backgroundcolor);
+}
+
+/*footer*/
+.footer-container {
+    background-color: var(--navbar-footer-ect);
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+    position: relative;
+    color: var(--backgroundcolor);
+}
+
+.mail-container {
+    
+    
+}
+
+.mail-container h1 {
+    font-size: 18px;
+}
+
+.mail-container b {
+    font-size: 15px
+}
+
+.some-logo {
+    display: flex;
+    align-items: center;
+}
+
+.instagram {
+    width: 60px;
+    margin: 5px;
+}
+
+.facebook {
+    width: 60px;
+    margin: 5px;
+}
+
+
 
 /*Ændring til desktop format*/
 @media screen and (min-width: 1024px) {
