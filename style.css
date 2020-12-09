@@ -255,7 +255,7 @@ button {
 /*CV side telefon*/
 /*Om mig*/
 .ommig {
-    border: 5px solid var(--dropdown-button);
+    border: 1px solid var(--dropdown-button);
     margin: 20px;
     text-align: center;
 }
@@ -274,7 +274,7 @@ button {
 
 /*Arbejdserfaring*/
 .erfaring {
-    border: 5px solid var(--dropdown-button);
+    border: 1px solid var(--dropdown-button);
     margin: 20px;
     text-align: center;
 }
