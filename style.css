@@ -15,7 +15,6 @@ body {
 }
 
 /*Dropdown menu telefon*/
-
 header {
     padding: 20px;
     background: var(--navbar-footer-ect);
@@ -297,6 +296,53 @@ button {
     padding: 40px;
     text-align: center;
     font-size: 20px;
+}
+
+/*Rumrejsen side telefon*/
+.rumrejsen-indhold {
+    
+}
+
+.pc-billede {
+    text-align: center;
+    font-size: 20px;
+    margin: 10%;
+    margin-top: 30px;
+}
+
+.rumrejsen-pcbillede {
+    width: 100%;  
+}
+
+.logo-overskrift {
+    background-color: var(--navbar-footer-ect);
+    color: var(--backgroundcolor);
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.rumrejsen-logo {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.farvepalette-overskrift {
+    background-color: var(--navbar-footer-ect);
+    color: var(--backgroundcolor);
+    font-size: 30px;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.rumrejsen-farvepalette {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
 }
 
 
