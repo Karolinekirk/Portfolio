@@ -314,6 +314,7 @@ button {
     width: 100%;  
 }
 
+
 .logo-overskrift {
     background-color: var(--navbar-footer-ect);
     color: var(--backgroundcolor);
@@ -544,6 +545,20 @@ button {
 
     .videoportræt {
         width: 500px;
+    }
+
+    /*Rumrejsen side pc*/
+    .overskrift-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .logo-container {
+        width: 50%;
+    }
+
+    .farvepalette-container {
+        width: 50%;
     }
 
     /*footer pc*/
