@@ -23,7 +23,10 @@ header {
 }
 
 header .logo {
-    display: none;
+    max-width: 45px;
+    position: absolute;
+    left: 10px;
+    margin-top: -3px;
 }
 
 .dropbutton {
@@ -496,6 +499,7 @@ button {
         position: absolute;
         left: 20px;
         top: 7px;
+        margin-top: 0;
     }
 
     /*Profilbillede og text pc*/
